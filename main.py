@@ -94,4 +94,4 @@ def summarize(start_date, end_date, category=None):
 #         return f.read()
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(tansport = "http", host="0.0.0.0", port = 8000)
